@@ -1,0 +1,610 @@
+CRITICAL - 2022-09-10 02:30:05 --> Invalid file: home/rmedicine.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/rmedicine.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/rmedicine', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('home/rmedicine')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rmedicine()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:30:23 --> Invalid file: home/rmedicine.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/rmedicine.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/rmedicine', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('home/rmedicine')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rmedicine()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 02:30:24 --> Invalid file: home/rmedicine.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/rmedicine.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/rmedicine', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('home/rmedicine')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rmedicine()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:27:29 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:27:29 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:27:49 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:27:50 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:27:50 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:27:50 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:27:55 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:28:07 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:28:08 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:28:08 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:28:08 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:28:28 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:29:04 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:29:21 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:31:12 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:31:24 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:31:26 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:31:28 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:31:47 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:31:51 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:32:16 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:32:26 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+in APPPATH\Controllers\ClinicController.php on line 85.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:32:36 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:33:05 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:33:06 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 04:33:21 --> Call to a member function where() on null
+in APPPATH\Controllers\ClinicController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->client()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-10 09:04:30 --> mysqli_sql_exception: Invalid utf8 character string: '\x8Af\xA0z' in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\clinic\clinic\app\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('images', 'profile.jpg')
+#8 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-10 09:04:30 --> Invalid utf8 character string: '\x8Af\xA0z'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('FCPATH\\images', 'profile.jpg')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 09:04:30 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-09-10 09:05:04 --> mysqli_sql_exception: Invalid utf8 character string: '\x8Af\xA0z' in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\clinic\clinic\app\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('images', 'profile.jpg')
+#8 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-10 09:05:04 --> Invalid utf8 character string: '\x8Af\xA0z'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('FCPATH\\images', 'profile.jpg')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 09:05:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-10 09:06:11 --> syntax error, unexpected 'use' (T_USE)
+in APPPATH\Views\clinic\viewrecords.php on line 97.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('clinic/viewrecords', [], true)
+ 3 APPPATH\Controllers\ClinicController.php(27): view('clinic/viewrecords', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('MUNyISVm')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-10 09:06:19 --> mysqli_sql_exception: Invalid utf8 character string: '\x8Af\xA0z' in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\clinic\clinic\app\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('images', 'profile.jpg')
+#8 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-10 09:06:19 --> Invalid utf8 character string: '\x8Af\xA0z'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('FCPATH\\images', 'profile.jpg')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 09:06:19 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-09-10 09:06:33 --> mysqli_sql_exception: Invalid utf8 character string: '\x8Af\xA0z' in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\clinic\clinic\app\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('images', 'profile.jpg')
+#8 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-10 09:06:33 --> Invalid utf8 character string: '\x8Af\xA0z'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('FCPATH\\images', 'profile.jpg')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 09:06:33 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-09-10 09:08:11 --> mysqli_sql_exception: Invalid utf8 character string: '\x8Af\xA0z' in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\clinic\clinic\app\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('images', 'profile.jpg')
+#8 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-10 09:08:11 --> Invalid utf8 character string: '\x8Af\xA0z'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('FCPATH\\images', 'profile.jpg')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 09:08:11 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-09-10 09:09:56 --> mysqli_sql_exception: Invalid utf8 character string: '\x8Af\xA0z' in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\clinic\clinic\app\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('images', 'profile.jpg')
+#8 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-10 09:09:56 --> Invalid utf8 character string: '\x8Af\xA0z'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('FCPATH\\images', 'profile.jpg')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 09:09:56 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-09-10 09:10:46 --> mysqli_sql_exception: Invalid utf8 character string: '\x8Af\xA0z' in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\clinic\clinic\app\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('images', 'profile.jpg')
+#8 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-10 09:10:46 --> Invalid utf8 character string: '\x8Af\xA0z'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('FCPATH\\images', 'profile.jpg')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 09:10:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-09-10 09:11:32 --> mysqli_sql_exception: Invalid utf8 character string: '\x8Af\xA0z' in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\clinic\clinic\app\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('images', 'profile.jpg')
+#8 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-10 09:11:32 --> Invalid utf8 character string: '\x8Af\xA0z'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('FCPATH\\images', 'profile.jpg')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 09:11:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-09-10 09:11:46 --> mysqli_sql_exception: Invalid utf8 character string: '\x8Af\xA0z' in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\clinic\clinic\app\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('images', 'profile.jpg')
+#8 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-10 09:11:46 --> Invalid utf8 character string: '\x8Af\xA0z'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `appointment`
+WHERE `ClientID` = Šf z and `apstatus` = \'done\'', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ClinicController.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->viewrecords('FCPATH\\images', 'profile.jpg')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 09:11:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\laragon\www\clinic\clinic\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

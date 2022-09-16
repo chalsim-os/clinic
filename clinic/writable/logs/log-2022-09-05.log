@@ -1,0 +1,1715 @@
+CRITICAL - 2022-09-05 00:00:08 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:00:08 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:00:12 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:00:12 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:00:27 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:00:27 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:00:29 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:00:29 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:00:33 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:00:33 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:00:34 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:00:34 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:00:46 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:00:46 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:13:54 --> syntax error, unexpected '$day' (T_VARIABLE), expecting ';' or ','
+in APPPATH\Views\clinic\staff.php on line 60.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('clinic/staff', [], true)
+ 3 APPPATH\Controllers\ClinicController.php(17): view('clinic/staff', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->staff()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:13:54 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:13:56 --> syntax error, unexpected '$day' (T_VARIABLE), expecting ';' or ','
+in APPPATH\Views\clinic\staff.php on line 60.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('clinic/staff', [], true)
+ 3 APPPATH\Controllers\ClinicController.php(17): view('clinic/staff', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->staff()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:13:56 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:34:44 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:34:44 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:34:55 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:34:55 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:34:57 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:34:57 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:34:59 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:34:59 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:35:00 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:35:00 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:35:01 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:35:01 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:39:04 --> Call to a member function set() on string
+in APPPATH\Controllers\ClinicController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:39:04 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:41:15 --> Call to a member function set() on string
+in APPPATH\Controllers\ClinicController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:41:15 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:41:28 --> Call to a member function set() on string
+in APPPATH\Controllers\ClinicController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:41:28 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:41:53 --> Call to a member function set() on string
+in APPPATH\Controllers\ClinicController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:41:53 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:42:13 --> Call to a member function set() on string
+in APPPATH\Controllers\ClinicController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:42:13 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:42:29 --> Call to a member function set() on string
+in APPPATH\Controllers\ClinicController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:42:29 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:42:37 --> Call to a member function set() on string
+in APPPATH\Controllers\ClinicController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:42:37 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:42:43 --> Call to a member function set() on string
+in APPPATH\Controllers\ClinicController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:42:43 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:43:14 --> Call to a member function set() on string
+in APPPATH\Controllers\ClinicController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:43:14 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:43:41 --> Call to a member function set() on string
+in APPPATH\Controllers\ClinicController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:43:41 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:43:49 --> Call to a member function set() on string
+in APPPATH\Controllers\ClinicController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:43:49 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:45:53 --> Call to a member function set() on string
+in APPPATH\Controllers\ClinicController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:45:53 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:46:30 --> Call to a member function set() on string
+in APPPATH\Controllers\ClinicController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:46:30 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:47:37 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:47:37 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:47:42 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:47:42 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:47:44 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:47:44 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:47:50 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:47:50 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:47:53 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:47:53 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:47:58 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:47:58 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:48:00 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:48:00 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:48:03 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:48:03 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:48:19 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:48:19 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:48:27 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:48:27 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-09-05 00:52:31 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ClinicS...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ClinicS...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ClinicS...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ClinicS...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\clinic\clinic\system\Model.php(693): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\clinic\clinic\app\Controllers\ClinicController.php(21): CodeIgniter\Model->update()
+#8 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-05 00:52:39 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ClinicS...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ClinicS...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ClinicS...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ClinicS...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\clinic\clinic\system\Model.php(693): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\clinic\clinic\app\Controllers\ClinicController.php(21): CodeIgniter\Model->update()
+#8 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-05 00:52:53 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ClinicS...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ClinicS...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ClinicS...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ClinicS...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\clinic\clinic\system\Model.php(693): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\clinic\clinic\app\Controllers\ClinicController.php(21): CodeIgniter\Model->update()
+#8 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-05 00:53:21 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ClinicS...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ClinicS...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ClinicS...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ClinicS...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\clinic\clinic\system\Model.php(693): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\clinic\clinic\app\Controllers\ClinicController.php(20): CodeIgniter\Model->update()
+#8 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-05 00:53:52 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ClinicS...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ClinicS...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ClinicS...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ClinicS...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\clinic\clinic\system\Model.php(693): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\clinic\clinic\app\Controllers\ClinicController.php(20): CodeIgniter\Model->update()
+#8 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-05 00:54:11 --> mysqli_sql_exception: Unknown column 'Array' in 'field list' in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ClinicS...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ClinicS...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ClinicS...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ClinicS...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\clinic\clinic\system\Model.php(693): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\clinic\clinic\app\Controllers\ClinicController.php(20): CodeIgniter\Model->update()
+#8 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-05 00:54:20 --> Cannot use [] for reading
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:54:34 --> Call to a member function set() on array
+in APPPATH\Controllers\ClinicController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:54:34 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:54:41 --> Call to a member function set() on array
+in APPPATH\Controllers\ClinicController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:54:41 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:54:47 --> Call to a member function set() on array
+in APPPATH\Controllers\ClinicController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:54:47 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:54:54 --> Call to a member function set() on string
+in APPPATH\Controllers\ClinicController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:54:54 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:56:39 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:56:39 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:56:44 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:56:44 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:56:47 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:56:47 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:56:48 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:56:48 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:56:52 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:56:52 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:56:53 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:56:53 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 00:56:56 --> syntax error, unexpected ';', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 00:56:56 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 01:01:09 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 01:01:09 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 01:02:12 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 01:02:12 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 01:02:28 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 01:02:28 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 01:04:53 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 01:04:53 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 01:05:13 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 01:05:13 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 01:05:17 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 01:05:17 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 01:07:38 --> A non-numeric value encountered
+in APPPATH\Controllers\ClinicController.php on line 17.
+ 1 APPPATH\Controllers\ClinicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\ClinicController.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClinicController->changesched()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClinicController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 01:07:38 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 01:32:12 --> syntax error, unexpected '=', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 01:32:12 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 01:32:31 --> syntax error, unexpected '=', expecting ']'
+in APPPATH\Controllers\ClinicController.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClinicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClinicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClinicController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ClinicController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClinicController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 01:32:31 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:07:49 --> Invalid file: res.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('res.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('res', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('res')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->check()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:07:49 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:10:12 --> Invalid file: res.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('res.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('res', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('res')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->check()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:10:12 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:10:17 --> Invalid file: res.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('res.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('res', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('res')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->check()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:10:17 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:15:13 --> Invalid file: top.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('top.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('top', null, true)
+ 3 APPPATH\Views\res.php(1): CodeIgniter\View\View->include('top')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\res.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('res', [], true)
+ 7 APPPATH\Controllers\Home.php(12): view('res')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->check()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:15:13 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:15:27 --> Invalid file: home/top.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/top.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('home/top', null, true)
+ 3 APPPATH\Views\res.php(1): CodeIgniter\View\View->include('home/top')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\res.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('res', [], true)
+ 7 APPPATH\Controllers\Home.php(12): view('res')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->check()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:15:27 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:25:11 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:25:11 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:25:19 --> Argument 2 passed to view() must be of the type array, null given, called in C:\laragon\www\clinic\clinic\app\Controllers\Home.php on line 15
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Home.php(15): view('home/schedule', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:25:19 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:25:29 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:25:29 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:25:40 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:25:40 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:49:19 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH\Views\home\schedule.php on line 51.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/schedule', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('home/schedule', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:49:19 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:49:33 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH\Views\home\schedule.php on line 51.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/schedule', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('home/schedule', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:49:33 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:54:38 --> syntax error, unexpected ':'
+in APPPATH\Views\home\schedule.php on line 35.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/schedule', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('home/schedule', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:54:38 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:54:49 --> syntax error, unexpected ':'
+in APPPATH\Views\home\schedule.php on line 35.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/schedule', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('home/schedule', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:54:49 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:55:18 --> Call to undefined function str_contains()
+in APPPATH\Views\home\schedule.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/schedule', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/schedule', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:55:18 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:55:19 --> Call to undefined function str_contains()
+in APPPATH\Views\home\schedule.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/schedule', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/schedule', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:55:19 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:56:35 --> Call to undefined function str_contains()
+in APPPATH\Views\home\schedule.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/schedule', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/schedule', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:56:35 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:56:39 --> Call to undefined function str_contains()
+in APPPATH\Views\home\schedule.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/schedule', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/schedule', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:56:39 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 07:56:41 --> Call to undefined function str_contains()
+in APPPATH\Views\home\schedule.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/schedule', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/schedule', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 07:56:41 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 08:19:18 --> Call to undefined function str_contains()
+in APPPATH\Views\home\schedule.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/schedule', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/schedule', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 08:19:18 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 08:19:21 --> Call to undefined function str_contains()
+in APPPATH\Views\home\schedule.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/schedule', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/schedule', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 08:19:21 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 08:20:26 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH\Views\home\schedule.php on line 42.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/schedule', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('home/schedule', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 08:20:26 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 08:33:37 --> Call to undefined function str_contains()
+in APPPATH\Views\home\schedule.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/schedule', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/schedule', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->schedule()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 08:33:37 --> Uncaught ErrorException: file_get_contents(C:\laragon\www\clinic\clinic\app\Views\errors\html\debug.js): failed to open stream: No such file or directory in C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\clinic\clinic\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(251): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\laragon\www\clinic\clinic\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
