@@ -1,0 +1,177 @@
+CRITICAL - 2022-09-24 09:55:49 --> Call to undefined method App\Controllers\MainController::sendMail()
+in APPPATH\Controllers\MainController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->reset()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 09:55:54 --> Call to undefined method App\Controllers\MainController::sendMail()
+in APPPATH\Controllers\MainController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->reset()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 09:56:23 --> Call to undefined method App\Controllers\MainController::sendMail()
+in APPPATH\Controllers\MainController.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->reset()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 09:57:44 --> Cannot redeclare App\Controllers\MainController::reset()
+in APPPATH\Controllers\MainController.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-24 10:01:55 --> Object of class App\Models\UserModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `users`
+WHERE `token` = :token:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `token` = :token:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `token` = :token:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Controllers\MainController.php(29): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->passreset('fsdgfbg')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 10:02:06 --> Object of class App\Models\UserModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `users`
+WHERE `token` = :token:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `token` = :token:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `token` = :token:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Controllers\MainController.php(29): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->passreset('fsdgfbg')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 10:02:24 --> Object of class App\Models\UserModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `users`
+WHERE `token` = :token:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `token` = :token:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `token` = :token:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Controllers\MainController.php(29): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->passreset('fsdgfbg')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 10:02:36 --> Object of class App\Models\UserModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `users`
+WHERE `token` = :token:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `token` = :token:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `token` = :token:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Controllers\MainController.php(29): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->passreset('fsdgfbg')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 17:55:15 --> syntax error, unexpected '}', expecting ';' or ','
+in APPPATH\Controllers\MainController.php on line 62.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\MainController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MainController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MainController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\MainController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\MainController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 18:07:18 --> Invalid file: reset/$2y$10$kWUMvSfEYVnnxVVvokBgr.BRqc.T0nudG01UtdlDzcy0hJxa2mjHy
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset/$2y$10$kWUMvSfEYVnnxVVvokBgr.BRqc.T0nudG01UtdlDzcy0hJxa2mjHy')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('reset/$2y$10$kWUMvSfEYVnnxVVvokBgr.BRqc.T0nudG01UtdlDzcy0hJxa2mjHy', [], true)
+ 3 APPPATH\Controllers\MainController.php(39): view('reset/$2y$10$kWUMvSfEYVnnxVVvokBgr.BRqc.T0nudG01UtdlDzcy0hJxa2mjHy')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->changepassword()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 18:48:36 --> Invalid file: reset/$2y$10$kWUMvSfEYVnnxVVvokBgr.BRqc.T0nudG01UtdlDzcy0hJxa2mjHy
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset/$2y$10$kWUMvSfEYVnnxVVvokBgr.BRqc.T0nudG01UtdlDzcy0hJxa2mjHy')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('reset/$2y$10$kWUMvSfEYVnnxVVvokBgr.BRqc.T0nudG01UtdlDzcy0hJxa2mjHy', [], true)
+ 3 APPPATH\Controllers\MainController.php(52): view('reset/$2y$10$kWUMvSfEYVnnxVVvokBgr.BRqc.T0nudG01UtdlDzcy0hJxa2mjHy')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->changepassword()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 18:50:30 --> Invalid file: reset/XNJecpa41lhTiICFM7QPW03dzkfgUOqSvRDnub9wxYsLGmEHAV.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset/XNJecpa41lhTiICFM7QPW03dzkfgUOqSvRDnub9wxYsLGmEHAV.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('reset/XNJecpa41lhTiICFM7QPW03dzkfgUOqSvRDnub9wxYsLGmEHAV', [], true)
+ 3 APPPATH\Controllers\MainController.php(53): view('reset/XNJecpa41lhTiICFM7QPW03dzkfgUOqSvRDnub9wxYsLGmEHAV')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->changepassword()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 19:16:03 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH\Views\reset.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('reset', [], true)
+ 4 APPPATH\Controllers\MainController.php(78): view('reset', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->passreset('qZnCQvMR21ApcOtyS3kfJ8awijVsPoXTz0uLWmr9NHFDKGIbgY')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 21:37:09 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\laragon\www\clinic\clinic\app\Controllers\MainController.php on line 62
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\MainController.php(62): CodeIgniter\HTTP\RedirectResponse->to(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->changepassword()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 22:51:06 --> syntax error, unexpected ''staff'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

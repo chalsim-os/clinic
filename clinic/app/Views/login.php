@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Flat Admin - Bootstrap Themes</title>
+  <title>MBC Clinic - Online Appointment</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -24,12 +24,36 @@
 
   <div class="container">
     <div class="login-box">
-      <div class="title"><h3>Flat Admin</h3></div>
+      <div class="title"><h3>MBC Clinic</h3></div>
+      <?php if(session()->getFlashdata('msg')):?>
+        <div class="alert alert-danger" id="forgot-message" role="alert">
+          <i class="fa-solid fa-x"></i>
+             <?= session()->getFlashdata('msg') ?>
+          </div>
+      <?php endif;?>
+      <?php if(isset($validation)):?>
+      <div class="alert alert-warning">
+         <?= $validation->listErrors() ?>
+      </div>
+      <?php endif;?>
+      <div class="progress hidden" id="forgot-progress">
+        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+          Checking your account
+        </div>
+      </div>
+      <div class="alert alert-success hidden" id="forgot-message" role="alert">
+        <i class="fa fa-check"></i> We have sent link to your email
+      </div>
+      <div class="alert alert-success hidden" id="forgot-emessage" role="alert">
+        <i class="fa fa-check"></i> We cannot find this email.
+      </div>
+
       <div class="progress hidden" id="login-progress">
         <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
           Log In...
         </div>
       </div>
+
       <div class="alert alert-success hidden" id="login-message" role="alert">
         <i class="fa fa-check"></i> Login Success. Please wait for loading.
       </div>
@@ -51,10 +75,45 @@
             <input type="submit" class="btn btn-orange" value="Login">
           </div>
         </form>
+        <form id="register-form" class="hidden" action="<?=base_url()?>/register" action="post">
+          <div class="control">
+            <div class="label">Complete Name</div>
+            <input type="text" name="name" class="form-control" placeholder="complete name"/>
+          </div>
+          <div class="control">
+            <div class="label">Email Address</div>
+            <input type="text" name="email" class="form-control" placeholder="Email"/>
+          </div>
+          <div class="control">
+            <div class="label">Password</div>
+            <input type="password"name="password" class="form-control" />
+          </div>
+          <div class="control">
+            <div class="label">Password</div>
+            <input type="password" name="confirmpassword" class="form-control" />
+          </div>
+          <div class="login-button">
+            <input type="submit" class="btn btn-orange" value="Register">
+          </div>
+        </form>
+        <form id="forgot-form" class="hidden">
+          <div class="control">
+            <div class="label">Email Address</div>
+            <input type="text" id="femail" class="form-control" placeholder="Email"/>
+          </div>
+          <div class="login-button">
+            <input type="submit" class="btn btn-orange" value="Send email">
+          </div>
+        </form>
       </div>
-      <div class="info-box">
-        <span class="text-left"><a href="register.html">Create new account</a></span>
-        <span class="text-right"><a href="#">Forgot password?</a></span>
+      <div class="info-box" id="info-login">
+        <span class="text-left"><a id="register">Create new account</a></span>
+        <span class="text-right"><a id="forgot">Forgot password?</a></span>
+        <div class="clear-both"></div>
+      </div>
+      <div class="info-box hidden" id="inreg">
+        <span class="text-left"><a id="login">Login</a></span>
+        <span class="text-right"><a id="forgot">Forgot password?</a></span>
         <div class="clear-both"></div>
       </div>
     </div>
@@ -62,6 +121,51 @@
 
   <script>
   $(document).ready(function(){
+    $("#forgot").click(function(){
+      $("#login-form").addClass("hidden");
+      $("#register-form").addClass("hidden");
+      $("#forgot-form").removeClass("hidden");
+    });
+    $("#register").click(function(){
+      $("#login-form").addClass("hidden");
+      $("#register-form").removeClass("hidden");
+      $("#inreg").removeClass("hidden");
+      $("#info-login").addClass("hidden");
+      $("#forgot-form").addClass("hidden");
+    });
+    $("#login").click(function(){
+      $("#login-form").removeClass("hidden");
+      $("#register-form").addClass("hidden");
+      $("#inreg").addClass("hidden");
+      $("#info-login").removeClass("hidden");
+      $("#forgot-form").addClass("hidden");
+    });
+    $("#forgot-form").submit(function(){
+      $("#forgot-progress").removeClass("hidden");
+      setTimeout(function(){
+      var email = $("#femail").val();
+
+      $.ajax({
+        url: "<?=base_url()?>/reset",
+        type:"POST",
+        data:{
+          email: email
+        },
+        success: function(rp){
+          if(rp == 1){
+            $("#forgot-message").removeClass("hidden");
+            $("#login-form").removeClass("hidden");
+            $("#forgot-form").addClass("hidden");
+          }else{
+            $("#forgot-message").addClass("hidden");
+            $("#forgot-emessage").removeClass("hidden");
+          }
+        }
+      });
+    }, 1000);
+    return false;
+  });
+
     $("#login-form").submit(function() {
       $("#login-progress").removeClass("hidden");
       setTimeout(function(){

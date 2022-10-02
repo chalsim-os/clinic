@@ -38,7 +38,7 @@
 
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="content-block">
-                <div class="block-title">New Appointment Request
+                <div class="block-title">Appointment Records
                 </div>
 
                 <div id="reg" class="modal fade" role="dialog">
@@ -73,7 +73,7 @@
                   </div>
                 </div>
                 <div class="block-content">
-                    <table id="example" class="table table-striped" cellspacing="0" width="100%">
+                    <table id="records" class="table table-striped" cellspacing="0" width="100%">
                         <thead>
                             <tr>
                               <th>Name</th>
@@ -141,6 +141,42 @@
             </div>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="content-block">
+                <div class="block-title">Medicine Transactions
+                </div>
+                <div class="block-content">
+                    <table id="medicine" class="table table-striped" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                              <th>Name</th>
+                              <th>Phone</th>
+                              <th>Complaints</th>
+                              <th>Medicine</th>
+                              <th>Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                          
+                          <?php foreach($mede as $h): ?>
+                            <tr>
+                              <td><?= $h['cname'] ?></td>
+                              <td><?= $h['phone'] ?></td>
+                              <td><?= $h['complaints'] ?></td>
+                              <td><?= $h['phone'] ?></td>
+                              <td><?= $h['phone'] ?></td>
+                            </tr>
+
+                          <?php endforeach; ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
   </div>
 </div>
 <footer class="footer">
@@ -148,7 +184,8 @@
 </footer>
 <script type="text/javascript">
 $(function() {
-    $('#example').DataTable();
+    $('#records').DataTable();
+    $('#medicine').DataTable();
 });
 </script>
 </body>

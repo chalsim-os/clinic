@@ -5,7 +5,7 @@
     </div>
     <ul class="menu">
                     <li class="submenu">
-            <a href="index.html" class="active">
+            <a href="/clinicmg" class="active">
                 <div>
                     <i class="menu-icon fa fa-th-large"></i>
                     <span class="menu-title">Dashboard</span>
@@ -106,12 +106,39 @@
                 </div>
             </a>
         </li>
-        <li class="submenu">
-            <a href="/clinicmg/client">
+        <li class="submenu dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
                 <div>
                     <i class="menu-icon fa fa-gear"></i>
-                    <span class="menu-title">Setting</span>
+                    <span class="menu-title">Settings</span>
                 </div>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="/clinicmg/news">
+                        <div>
+                            <i class="menu-icon fa fa-sign-in"></i>
+                            <span class="menu-sub-title">News/Blog</span>
+                        </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/clinicmg/fbchat">
+                        <div>
+                            <i class="menu-icon fa fa-sign-in"></i>
+                            <span class="menu-sub-title">Facebook Chat</span>
+                        </div>
+                    </a>
+                    <li>
+                      <a href="/clinicmg/sms">
+                          <div>
+                              <i class="menu-icon fa fa-sign-in"></i>
+                              <span class="menu-sub-title">SMS Setting</span>
+                          </div>
+                      </a>
+                </li>
+
             </a>
         </li>
             </ul>

@@ -3,16 +3,41 @@
 namespace App\Controllers;
 use App\Models\ClinicStaffModel;
 use App\Models\AppointmentModel;
-
+use App\Models\ServicesModel;
+use App\Models\MedicineModel;
 class Home extends BaseController
 {
+  public function Nurses()
+  {
+    $st = new ClinicStaffModel();
+    $data = [
+      'type' => 'Nurses',
+      'staff' => $st->where('type','nurse')->findAll()
+    ];
+    return view('/home/staff', $data);
+  }
+  public function doctors()
+  {
+    $st = new ClinicStaffModel();
+    $data = [
+      'type' => 'Doctors',
+      'staff' => $st->where('type!=','nurse')->findAll()
+    ];
+    return view('/home/staff', $data);
+  }
   public function rmedicine()
   {
     $session = session();
     $user = session()->get('aid');
     // echo $user;
+    $med = new MedicineModel();
+
     if($user){
-      return view('home/rmedicine');
+      $data = [
+        'med' => $med->where('stocks > 0')->findAll()
+      ];
+      // var_dump($data);
+      return view('home/rmedicine', $data);
     }else{
       $session->setTempdata('url', '/login');
       return redirect()->to('/login');
@@ -100,8 +125,46 @@ class Home extends BaseController
     }
 
   }
+  public function secret()
+  {
+    return 'Cr!%f';
+  }
+  public function views($id = null)
+  {
+    $decrypted_id_raw = base64_decode($id);
+    $decrypted_id = preg_replace(sprintf('/%s/', $this->secret()), '', $decrypted_id_raw);
+    $sr = new ServicesModel();
+    $s = $sr->where('sid', $decrypted_id)->first();
+    $data = [
+      'type'  =>  $s['description'],
+      'views' =>  $sr->where('sid', $decrypted_id)->first(),
+    ];
+    return view('home/views', $data);
+
+  }
+  public function services()
+  {
+    $sv = new ServicesModel();
+    $data = [
+      'type'     => 'Services',
+      'services' => $sv->paginate(5),
+      'total'    => $sv->countAllResults(),
+      'pager'    => $sv->pager,
+      'secret'   => $this->secret()
+    ];
+    return view('home/services', $data);
+  }
   public function index()
   {
-    return view('home/index');
+    $cstf = new ClinicStaffModel();
+    $ap = new AppointmentModel();
+    $data = [
+      'total'    => $cstf->countAllResults(),
+      'nurse'    => $cstf->where('type', 'nurse')->countAllResults(),
+      'doctor'   => $cstf->where('type', 'College Physician')->countAllResults(),
+      'ap'       => $ap->where('apstatus', 'approved')->countAllResults()
+    ];
+    // var_dump($data);
+    return view('home/index', $data);
   }
 }

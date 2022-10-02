@@ -41,19 +41,20 @@
               <li class="nav-item">
                 <a class="page-scroll dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#submenu-1-3" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">Services</a>
                 <ul class="sub-menu collapse" id="submenu-1-3">
-                  <li class="nav-item"><a href="services.html">Services</a></li>
+                  <li class="nav-item"><a href="<?=base_url()?>/schedule">Clinic Schedule</a></li>
+                  <li class="nav-item"><a href="/services">Services</a></li>
                   <li class="nav-item"><a href="service-single.html">Service Details</a></li>
                 </ul>
               </li>
               <li class="nav-item">
                 <a class="page-scroll dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">Staff</a>
                 <ul class="sub-menu collapse" id="submenu-1-4">
-                  <li class="nav-item"><a href="doctors.html">Doctors</a></li>
-                  <li class="nav-item"><a href="doctor-details.html">Nurses</a></li>
+                  <li class="nav-item"><a href="<?=base_url('/doctors')?>">Doctors</a></li>
+                  <li class="nav-item"><a href="<?=base_url('/nurses')?>">Nurses</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="page-scroll dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#submenu-1-5" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">Blog</a>
+                <a class="page-scroll dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#submenu-1-5" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">Announcement</a>
                 <ul class="sub-menu collapse" id="submenu-1-5">
                   <li class="nav-item">
                     <a href="blog-grid-sidebar.html">Blog Grid Sidebar</a>

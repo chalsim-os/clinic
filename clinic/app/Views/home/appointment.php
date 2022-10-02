@@ -104,6 +104,7 @@
                   <div class="appointment-btn button">
                     <!-- <input type="submit" class="btn btn-orange" value="Get Appointment"> -->
                     <button type="button"class="btn btn-orange" id="ap">Get Appointment</button>
+                    <a href="<?=base_url()?>/bookhistory" class="btn btn-orange">book history</a>
                   </div>
                 </div>
               </div>

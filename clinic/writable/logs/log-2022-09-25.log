@@ -1,0 +1,590 @@
+CRITICAL - 2022-09-25 05:20:41 --> syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\MainController.php on line 129.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\MainController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MainController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MainController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\MainController')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\MainController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 05:23:04 --> mysqli_sql_exception: Table 'mclinic.accounts' doesn't exist in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmai...', 'email', Array, NULL)
+#6 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmai...', Array, Array)
+#7 C:\laragon\www\clinic\clinic\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\clinic\clinic\app\Controllers\MainController.php(121): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\MainController->register()
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-25 05:23:04 --> Table 'mclinic.accounts' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `accounts`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\MainController.php(121): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 05:24:04 --> mysqli_sql_exception: Table 'mclinic.accounts' doesn't exist in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmai...', 'email', Array, NULL)
+#6 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmai...', Array, Array)
+#7 C:\laragon\www\clinic\clinic\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\clinic\clinic\app\Controllers\MainController.php(121): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\MainController->register()
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-25 05:24:04 --> Table 'mclinic.accounts' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `accounts`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\MainController.php(121): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 05:24:05 --> mysqli_sql_exception: Table 'mclinic.accounts' doesn't exist in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmai...', 'email', Array, NULL)
+#6 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmai...', Array, Array)
+#7 C:\laragon\www\clinic\clinic\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\clinic\clinic\app\Controllers\MainController.php(121): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\MainController->register()
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-25 05:24:05 --> Table 'mclinic.accounts' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `accounts`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\MainController.php(121): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 05:24:14 --> mysqli_sql_exception: Table 'mclinic.accounts' doesn't exist in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmai...', 'email', Array, NULL)
+#6 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmai...', Array, Array)
+#7 C:\laragon\www\clinic\clinic\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\clinic\clinic\app\Controllers\MainController.php(121): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\MainController->register()
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-25 05:24:14 --> Table 'mclinic.accounts' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `accounts`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\MainController.php(121): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 05:24:15 --> mysqli_sql_exception: Table 'mclinic.accounts' doesn't exist in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmai...', 'email', Array, NULL)
+#6 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmai...', Array, Array)
+#7 C:\laragon\www\clinic\clinic\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\clinic\clinic\app\Controllers\MainController.php(121): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\MainController->register()
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-25 05:24:15 --> Table 'mclinic.accounts' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `accounts`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\MainController.php(121): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 05:24:31 --> mysqli_sql_exception: Table 'mclinic.accounts' doesn't exist in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmai...', 'email', Array, NULL)
+#6 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmai...', Array, Array)
+#7 C:\laragon\www\clinic\clinic\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\clinic\clinic\app\Controllers\MainController.php(121): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\MainController->register()
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-25 05:24:31 --> Table 'mclinic.accounts' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `accounts`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\MainController.php(121): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 05:24:32 --> mysqli_sql_exception: Table 'mclinic.accounts' doesn't exist in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmai...', 'email', Array, NULL)
+#6 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmai...', Array, Array)
+#7 C:\laragon\www\clinic\clinic\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\clinic\clinic\app\Controllers\MainController.php(121): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\MainController->register()
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-25 05:24:32 --> Table 'mclinic.accounts' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `accounts`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\MainController.php(121): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 05:24:32 --> mysqli_sql_exception: Table 'mclinic.accounts' doesn't exist in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmai...', 'email', Array, NULL)
+#6 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmai...', Array, Array)
+#7 C:\laragon\www\clinic\clinic\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\clinic\clinic\app\Controllers\MainController.php(121): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\MainController->register()
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-25 05:24:32 --> Table 'mclinic.accounts' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `accounts`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\MainController.php(121): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 05:24:39 --> mysqli_sql_exception: Table 'mclinic.accounts' doesn't exist in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmai...', 'email', Array, NULL)
+#6 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmai...', Array, Array)
+#7 C:\laragon\www\clinic\clinic\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\clinic\clinic\app\Controllers\MainController.php(121): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\MainController->register()
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-25 05:24:39 --> Table 'mclinic.accounts' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `accounts`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\MainController.php(121): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 05:24:44 --> mysqli_sql_exception: Table 'mclinic.accounts' doesn't exist in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmai...', 'email', Array, NULL)
+#6 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmai...', Array, Array)
+#7 C:\laragon\www\clinic\clinic\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\clinic\clinic\app\Controllers\MainController.php(121): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\MainController->register()
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-25 05:24:44 --> Table 'mclinic.accounts' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `accounts`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\MainController.php(121): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 05:24:52 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, null given, called in C:\laragon\www\clinic\clinic\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 435.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules(null, [])
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator(null, [])
+ 3 APPPATH\Controllers\MainController.php(121): CodeIgniter\Controller->validate(null)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 05:25:00 --> mysqli_sql_exception: Table 'mclinic.accounts' doesn't exist in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmai...', 'email', Array, NULL)
+#6 C:\laragon\www\clinic\clinic\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmai...', Array, Array)
+#7 C:\laragon\www\clinic\clinic\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\clinic\clinic\app\Controllers\MainController.php(121): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\MainController->register()
+#10 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-25 05:25:00 --> Table 'mclinic.accounts' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `accounts`
+WHERE `email` = \'krizchan31@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `accounts`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('krizchan31@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'krizchan31@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\MainController.php(121): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 05:25:30 --> Call to undefined method App\Controllers\MainController::sendMail()
+in APPPATH\Controllers\MainController.php on line 143.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 06:09:45 --> Call to a member function setTo() on null
+in APPPATH\Controllers\MainController.php on line 17.
+ 1 APPPATH\Controllers\MainController.php(143): App\Controllers\MainController->sendMail('krizchan31@gmail.com', 'Please confirm your registration', 'Hi christian<br><h1>welcome to website!</h1>
+
+      please confirm your registration by clicking this <a href="http://clinic.test/verify/TrotdnEu3BsiKA8Icg5PfVR9F706XZkYjSyOvWwaLNJUMblzQq ">link</a>')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 06:10:12 --> Call to a member function setTo() on null
+in APPPATH\Controllers\MainController.php on line 17.
+ 1 APPPATH\Controllers\MainController.php(143): App\Controllers\MainController->sendMail('krizchan31@gmail.com', 'Please confirm your registration', 'Hi christian<br><h1>welcome to website!</h1>
+
+      please confirm your registration by clicking this <a href="http://clinic.test/verify/pCX7DBwxdQ3tFNTeAIZR4sHrlonEM6SGUYam1jzLOhv8u5ycPk ">link</a>')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 06:11:14 --> Call to a member function setTo() on null
+in APPPATH\Controllers\MainController.php on line 17.
+ 1 APPPATH\Controllers\MainController.php(143): App\Controllers\MainController->sendMail('krizchan31@gmail.com', 'Please confirm your registration', 'Hi christian<br><h1>welcome to website!</h1>
+
+      please confirm your registration by clicking this <a href="http://clinic.test/verify/oBk2jIcZsmtC8hxvd05R1pfMgFTSUYiKrHeJzb3u4nqDwQyaWO ">link</a>')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MainController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 07:24:59 --> Cannot use [] for reading
+in APPPATH\Views\home\index.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-09-25 08:11:32 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\clinic\clinic\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\clinic\clinic\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\clinic\clinic\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\clinic\clinic\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\clinic\clinic\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\clinic\clinic\app\Views\home\index.php(150): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\clinic\clinic\system\View\View.php(213): include('C:\\laragon\\www\\...')
+#8 C:\laragon\www\clinic\clinic\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 C:\laragon\www\clinic\clinic\system\Common.php(1142): CodeIgniter\View\View->render('home/index', Array, true)
+#10 C:\laragon\www\clinic\clinic\app\Controllers\Home.php(124): view('home/index')
+#11 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#12 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 C:\laragon\www\clinic\clinic\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\laragon\www\clinic\index.php(67): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-09-25 08:11:32 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `appointment`
+WHERE `date` = (\'2022-09-26\',\'2022-09-27\',\'2022-09-28\',\'2022-09-29\',\'2022-09-30\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `appointment`
+WHERE `date` = (\'2022-09-26\',\'2022-09-27\',\'2022-09-28\',\'2022-09-29\',\'2022-09-30\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `appointment`
+WHERE `date` = (\'2022-09-26\',\'2022-09-27\',\'2022-09-28\',\'2022-09-29\',\'2022-09-30\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `appointment`
+WHERE `date` = :date:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Views\home\index.php(150): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\index.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/index', [], true)
+11 APPPATH\Controllers\Home.php(124): view('home/index')
+12 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+14 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 17:51:08 --> Call to undefined function var_dum()
+in APPPATH\Views\home\index.php on line 154.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(124): view('home/index')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 17:56:59 --> syntax error, unexpected ''</td>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+in APPPATH\Views\home\index.php on line 156.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(124): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

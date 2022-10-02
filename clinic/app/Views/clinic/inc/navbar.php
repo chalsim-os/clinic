@@ -72,7 +72,7 @@
                                 <p>emily_hart@email.com</p>
                                 <div class="btn-group margin-bottom-2x" role="group">
                                     <button type="button" class="btn btn-default"><i class="fa fa-user"></i> Profile</button>
-                                    <button type="button" class="btn btn-default"><i class="fa fa-sign-out"></i> Logout</button>
+                                    <a href="<?=base_url()?>/logout" class="btn btn-default"><i class="fa fa-sign-out"></i> Logout</a>
                                 </div>
                             </div>
                         </li>

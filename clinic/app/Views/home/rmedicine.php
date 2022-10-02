@@ -26,13 +26,11 @@
               <div class="appointment-title">
                 <h2>Request Medicine</h2>
                 <h4> <?=$date?></h4>
-                <p>Please feel welcome to contact our friendly reception staff with any general or
-                  medical
-                  enquiry. Our doctors will receive or return any urgent calls.</p>
+                <p>Our medical personal will notify with your request and you will receive notification with any action done.</p>
                 </div>
               </div>
             </div>
-            <form id="book-form">
+            <form id="medi-form">
               <div class="row">
                 <div class="alert alert-success collapse" id="ap-message" role="alert">
                     <i class="fa fa-check"></i>  Success. Please wait while system validating your request.
@@ -55,57 +53,30 @@
                     <input type="text" name="number" id="phone" placeholder="Phone Number" value="<?= session()->get('phone')?>">
                   </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-12 p-0">
-                  <div class="appointment-input">
-                    <label for="number"><i class="lni lni-folder"></i></label>
-                    <select  id="aptype">
-                      <option value="none" selected="" disabled="">Appointment Type</option>
-                      <option value="medical checkup">medical checkup</option>
-                      <option value="dental checkup">dental checkup</option>
-                      <option value="checkup">checkup</option>
-                    </select>
-
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-12 p-0">
-                  <div class="appointment-input">
-                    <label for="department"><i class="lni lni-notepad"></i></label>
-                    <select name="department" id="department">
-                      <option value="none" selected="" disabled="">Department</option>
-                      <option value="none">General Surgery</option>
-                      <option value="none">Gastroenterology</option>
-                      <option value="none">Nutrition &amp; Dietetics</option>
-                      <option value="none">Cardiology</option>
-                      <option value="none">Neurology</option>
-                      <option value="none">Pediatric</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-12 p-0">
-                  <div class="appointment-input">
-                    <label for="date"></label>
-                    <input type="date" name="date" id="apdate" value="<?=$date?>">
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-12 p-0">
-                  <div class="appointment-input">
-                    <label for="time"></label>
-                    <input type="time" name="time" id="aptime" step="900">
-                  </div>
-                </div>
                 <div class="col-12 p-0">
                   <div class="appointment-input">
-                    <textarea placeholder="Write Your Message Here....." id="notes"></textarea>
+                    <textarea id="complaints" placeholder="tell us how do you feel"></textarea>
+                  </div>
+                </div>
+                <label>Medicine</label>
+                <div class="col-12 p-0">
+                  <div class="appointment-input">
+                  <select id="medicine">
+                    <?php foreach ($med as $med): ?>
+                    <option value="<?=$med['id']?>"><?=$med['name']?></option>
+                    <?php endforeach; ?>
+                  </select>
+                </div>
+                </div>
+                <br>
+                <br>
+                <div class="col-lg-6 col-md-6 col-12 p-0">
+                  <div class="appointment-btn button">
+                    <button type="button"class="btn btn-orange" id="ap">Request</button>
+                    <a href="<?=base_url()?>/hrequest" class="btn btn-orange">Request History</a>
                   </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-12 p-0">
-                  <div class="appointment-btn button">
-                    <!-- <input type="submit" class="btn btn-orange" value="Get Appointment"> -->
-                    <button type="button"class="btn btn-orange" id="ap">Get Appointment</button>
-                  </div>
-                </div>
               </div>
             </div>
           </form>
@@ -121,26 +92,20 @@
   $(document).ready(function(){
     $("#ap").click(function() {
       setTimeout(function(){
-        $("#ap-message").toggle();
+        // $("#ap-message").toggle();
          var name = $("#name").val();
          var phone = $("#phone").val();
-         var department = $("#department").val();
-         var date = $("#apdate").val();
-         var time = $("#aptime").val();
-         var notes = $("#notes").val();
-         var type = $("#aptype").val();
-        // $("#ap-message").toggle();
+         var complaints = $("#complaints").val();
+         var medicine = $("#medicine").val();
+         console.log(medicine);
         $.ajax({
-          url: "<?=base_url()?>/book",
+          url: "<?=base_url()?>/requestmed",
           type: "POST",
           data:{
             name: name,
             phone: phone,
-            department: department,
-            date: date,
-            time:time,
-            type:type,
-            notes: notes
+            complaints:complaints,
+            medicine:medicine
           },
           success:function(rp){
             console.log(rp);

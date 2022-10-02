@@ -49,11 +49,23 @@ $routes->match(['get', 'post'], '/appointment/(:any)', 'Home::appointments/$1');
 $routes->match(['get', 'post'], '/book', 'Home::book');
 $routes->match(['get', 'post'], '/auth', 'MainController::auth');
 $routes->match(['get', 'post'], '/validates', 'MainController::validates');
-
+$routes->match(['get', 'post'], '/doctors', 'Home::doctors');
+$routes->match(['get', 'post'], '/nurses', 'Home::nurses');
+$routes->match(['get', 'post'], '/services', 'Home::services');
+$routes->match(['get', 'post'], '/services/view/(:any)', 'Home::views/$1');
 
 
 $routes->get('/login', 'MainController::login');
 $routes->get('/logout', 'MainController::logout');
+$routes->match(['get', 'post'], '/register', 'MainController::register');
+$routes->match(['get', 'post'], '/verify/(:any)', 'MainController::verify/$1');
+$routes->match(['get', 'post'], '/reset', 'MainController::reset');
+$routes->match(['get', 'post'], '/reset/(:any)', 'MainController::passreset/$1');
+$routes->match(['get', 'post'], '/changepassword', 'MainController::changepassword');
+$routes->match(['get', 'post'], '/requestmed', 'MainController::requestmed');
+$routes->match(['get', 'post'], '/hrequest', 'MainController::hrequest');
+$routes->match(['get', 'post'], '/bookhistory', 'MainController::bookhistory');
+
 $routes->post('/clinicmg/addstock', 'ClinicController::addstock');
 $routes->get('/clinicmg/history/(:any)', 'ClinicController::history/$1');
 $routes->post('/clinicmg/updatemed', 'ClinicController::updatemed');
@@ -63,6 +75,9 @@ $routes->get('/clinicmg/incoming', 'ClinicController::incoming');
 $routes->get('/clinicmg/client', 'ClinicController::client');
 $routes->get('/clinicmg/viewrecords/(:any)', 'ClinicController::viewrecords/$1');
 $routes->get('/clinicmg/approve/(:any)', 'ClinicController::approve/$1');
+$routes->get('/clinicmg/fbchat', 'ClinicController::fbchat');
+$routes->match(['get', 'post'],'/clinicmg/approvemed', 'ClinicController::approvemed');
+$routes->match(['get', 'post'],'/clinicmg/rejectmed/(:any)', 'ClinicController::rejectmed/$1');
 
 // medicine
 $routes->get('/clinicmg/newrequest', 'ClinicController::newrequest');

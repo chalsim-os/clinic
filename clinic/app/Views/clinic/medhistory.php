@@ -49,16 +49,29 @@
                         <thead>
                             <tr>
                               <th>Old Quantity</th>
+                              <th>type</th>
                               <th>Added</th>
+                              <th>New Quantity</th>
                               <th>validity</th>
+                              <th>Date Adjusted</th>
                             </tr>
                         </thead>
                         <tbody>
                           <?php foreach($smdata as $med): ?>
                             <tr>
                                 <td><?=$med['oldq']?></td>
+                                <td><?=$med['type']?></td>
                                 <td><?=$med['quantity']?></td>
+                                <td>
+                                  <?php if($med['type'] == 'inbound'): ?>
+                                    <?=$med['oldq'] + $med['quantity']?></td>
+                                  <?php elseif($med['type'] == 'outbound'): ?>
+                                    <?=$med['oldq'] - $med['quantity']?></td>
+                                  <?php endif; ?>
+
+
                                 <td><?=$med['validity']?></td>
+                                <td><?=$med['screated_at']?></td>
                             </tr>
                           <?php endforeach; ?>
                         </tbody>
